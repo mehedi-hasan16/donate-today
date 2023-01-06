@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn{
+    background-color: tomato;
+    color: white;
+    font-weight: bolder;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+header{
+    background-color: gray;
+    background-image: url(../images/donation5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 200px;
+    background-blend-mode:multiply;
+    margin-bottom: 50px;
+}
+
+.header-container{
+    text-align: center;
+}
+.header-container p{
+    padding: 30px 0;
+}
+
+.header-two{
+    text-align: center;
+}
+.header-two p{
+   margin-top: 20px;
+}
+
+.amount-container{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.amount-container h2{
+    padding: 20px;
+    cursor: pointer;
+    margin-left: 15px;
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 5px;
+}
+
+.amount-container h2:hover{
+    border: 2px solid tomato;
+
+}
+
+.amount-input{
+
+    height: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 50%;
+    text-align: center;
+    margin-bottom:30px ;
+}
+main{
+    margin: 40px 200px;
+}
+.main-description{
+    text-align: center;
+}
+.main-description p{
+    margin: 30px 0;
+}
+
+.donate-cat{
+    display: flex;
+    gap: 50px;
+}
+
+.food{
+    background-color: aquamarine;
+    border-radius: 5px;
+    padding: 10px;
+}
+.shelter{
+    background-color: goldenrod;
+    border-radius: 5px;
+    padding: 10px;
+}
+.education{
+    background-color: lightblue;
+    border-radius: 5px;
+    padding: 10px;
+}
+.contribute{
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    gap: 50px;
+    
+}
+.contribute-info h1,p{
+    margin-bottom: 20px;
+}
+
+.contribute img{
+    width: 50%;
+    border-radius: 5px;
+
+}
+.get-update{
+    text-align: center;
+    padding: 50px;
+}
+
+.update-info h1{
+    margin-bottom: 20px;
+}
+
+
+.subcribe-btn{
+    margin-top: 50px;
+    background-color: antiquewhite;
+    padding: 50px;
+    border-radius: 5px;
+
+}
+.subcribe-btn input{
+    padding: 10px ;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.253);
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+   
+    
+}
+
+.primary-color{
+    color: tomato;
+}
+.p-m{
+    margin: 20px 0;
+}
