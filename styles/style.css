@@ -93,7 +93,7 @@ main{
     border-radius: 5px;
     padding: 10px;
 }
-.contribute{
+.contribute-one, .contribute-two{
     display: flex;
     margin-top: 50px;
     align-items: center;
@@ -104,7 +104,7 @@ main{
     margin-bottom: 20px;
 }
 
-.contribute img{
+.contribute-one img,.contribute-two img{
     width: 50%;
     border-radius: 5px;
 
@@ -147,4 +147,36 @@ footer{
 }
 .p-m{
     margin: 20px 0;
+}
+
+@media screen and (max-width:576px) {
+    .donate-cat, .contribute-two{
+        flex-direction: column;
+    
+    }
+    main{
+        margin: 40px 20px;
+    }
+    .contribute-one{
+        flex-direction: column-reverse;
+    }
+
+    .contribute-one img,.contribute-two img{
+        width: 100%;
+        border-radius: 5px;
+    
+    }
+    .amount-container{
+        flex-direction: column;
+    }
+    .header-two p{
+        padding: 0 30px;
+    }
+    .amount-container h2 {
+
+        margin-left: 0;
+    }
+    header{
+        padding: 35px;
+    }
 }
